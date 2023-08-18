@@ -1,3 +1,5 @@
+package cadastro;
+
 public class Pessoa {
 
     private final String nome;
