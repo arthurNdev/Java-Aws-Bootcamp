@@ -2,8 +2,8 @@ package cadastro;
 
 public class Pessoa {
 
-    private final String nome;
-    private final String cpf;
+    private String nome;
+    private String cpf;
     private String endereco;
 
     public Pessoa (String cpf, String nome) {
