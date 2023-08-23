@@ -1,9 +1,10 @@
-package Mensagens;
+package Mensagens.apps;
 
 public class MSNMessenger extends ServicoMensagem {
 
     @Override
     public void enviarMensagem() {
+        validarConectadoInternet();
         System.out.println("Enviando mensagem pelo MSN Messenger");
     }
 
